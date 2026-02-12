@@ -1,0 +1,81 @@
+📌 Sobre o Projeto
+
+Este projeto implementa uma versão simplificada do jogo Super Trunfo, feito inteiramente em C com fins educacionais.
+Ele foi feito para praticar:
+
+Entrada de dados (scanf)
+
+Estruturas condicionais (if/else)
+
+Comparação de atributos
+
+Organização básica de código em C
+
+🛠 Tecnologias Utilizadas
+
+Linguagem: C
+
+Compilador: GCC (recomendado)
+
+Editor sugerido: VSCode / Dev-C++ / CodeBlocks
+
+🎮 Como Funciona o Jogo
+
+O programa:
+
+Recebe os dados de duas cartas via teclado (ex.: nome da cidade, população, área, PIB…).
+
+O jogador escolhe um atributo para comparar.
+
+O programa compara o atributo das duas cartas.
+
+O vencedor é exibido na tela.
+
+Um exemplo de atributo real do projeto:
+
+População
+
+Área
+
+PIB
+
+Número de pontos turísticos
+
+Densidade demográfica
+
+PIB per capita
+
+Super poder da carta
+
+
+
+📂 Estrutura Recomendada do Projeto
+/super_trunfo
+  ├── super_trunfo.c     # Código principal do jogo
+  ├── README.md          # Este arquivo
+
+
+📚 Exemplo Simplificado de Código
+#include <stdio.h>
+
+int main() {
+    int populacao1, populacao2;
+
+    printf("Digite a populacao da carta 1: ");
+    scanf("%d", &populacao1);
+
+    printf("Digite a populacao da carta 2: ");
+    scanf("%d", &populacao2);
+
+    if (populacao1 > populacao2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    return 0;
+}
+
+🤝 Objetivo Educacional
+
+Este projeto foi criado exclusivamente para estudo e prática, simulando como um desenvolvedor usa lógica de comparação e estruturação de programas no mundo real.
