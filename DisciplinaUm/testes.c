@@ -13,7 +13,7 @@ int main() {
     // char letra = 'A';//armazena apenas um caractere
 
     // char nome[5] = "Maria";
-//No exemplo acima, nome pode armazenar até 19 caracteres mais o caractere nulo.
+//No exemplo acima, nome pode armazenar até 4 caracteres mais o caractere nulo.
 //A manipulação de strings requer cuidado para evitar buffer
 // overflows (escrever além dos limites do array). 
 
